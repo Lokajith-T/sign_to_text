@@ -1,0 +1,18 @@
+{
+    "img_size": "224",
+    "sequence_length": "30",
+    "batch_size": "32",
+    "num_workers": "4",
+    "num_classes": "26",
+    "hidden_size": "512",
+    "num_layers": "2",
+    "dropout": "0.5",
+    "learning_rate": "0.001",
+    "num_epochs": "50",
+    "early_stopping_patience": "10",
+    "device": "cuda",
+    "data_path": "d:\\Projects\\RealTime-Sign-Language-Translator\\data",
+    "model_path": "d:\\Projects\\RealTime-Sign-Language-Translator\\models\\saved_models",
+    "checkpoint_path": "d:\\Projects\\RealTime-Sign-Language-Translator\\models\\checkpoints",
+    "output_path": "d:\\Projects\\RealTime-Sign-Language-Translator\\outputs"
+}
