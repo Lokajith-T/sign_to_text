@@ -55,6 +55,12 @@ This will update and save a `fine_tuned_model.pth` file. `app.py` is configured 
 2. **Cropping**: A dynamic bounding box is calculated around the detected hand, isolating it from the background.
 3. **Classification**: The isolated hand image is resized to 224x224 and fed into a PyTorch ResNet18 model modified to output 26 classes corresponding to the A-Z alphabet.
 
+## Results and Accuracy
+
+After collecting a custom dataset of all the alphabets and running the fine-tuning script, the model achieves over **81% accuracy** on the custom dataset. In real-time inference via webcam, the confidence levels for clear gestures consistently score above 80-90% as seen below!
+
+![Sample Predictions](Sample.png)
+
 ## Author
 
 - **Lokajith T**
